@@ -1,0 +1,22 @@
+/*
+1. In JavaScript, the "var" keyword is used to declare a variable
+2. Letters (A-Z;a-z), numbers (0-9), underscores(_), and dollar signs ($) allowed.
+3. Must start with a letter, underscore, or dollar sign.
+4. No spaces in variable names.
+5. Avoid reserved(keywords) words.
+6. Case sensitivity matters.
+*/
+Example :
+
+var name,age;
+
+myName="Sneha"
+age=27;
+
+// Output values
+document.write(name);
+document.write(age);
+
+
+
+
