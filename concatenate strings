@@ -18,7 +18,7 @@ document.write ("Yes, " + fullName + "is my name");
 
 
 
-//Using the concat method
+//Using the concat method :
 
 
 var firstName,lastName,fullName;
