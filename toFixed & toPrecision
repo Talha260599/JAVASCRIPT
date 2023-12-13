@@ -1,0 +1,25 @@
+***toFixed***
+/*
+1. The ***toFixed*** method is used to format a number with a specific number of digits after the decimal point.
+2. It returns the result as a string.
+*/
+
+var num = 3.123456789;
+console.log(num.tofixed(6)); // Outputs: "3.123457"
+
+
+
+
+***toPrecision***
+/*
+1. The ***toPrecision*** method is used to format a number with a specified total number of digits (including both the integer and fractional parts).
+2. It returns the result as a string.
+*/
+
+var num = 4.12345;
+num = num.toPrecision(4);
+console.log(num); // Outputs: "4.123"
+
+var num = 4.12345;
+num = num.toPrecision(4);
+console.log(typeof(num)); // output : string
