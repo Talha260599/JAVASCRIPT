@@ -1,0 +1,9 @@
+<script>
+
+document.write("Hello Bangladesh!!!")
+
+</script>
+
+
+
+output : Hello Bangladesh!!!
