@@ -1,3 +1,5 @@
+JavaScript alert: simple user notification.
+
 <script>
 
       alert("Hello World");
@@ -7,3 +9,4 @@
 
 
 OUTPUT : hello world (pop-up)
+
