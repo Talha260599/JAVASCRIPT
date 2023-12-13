@@ -1,3 +1,6 @@
+
+// Using the + operator:
+
 var firstName,lastName,fullName;
 
 firstName= "Nabila Binte Tariq";
@@ -10,3 +13,24 @@ document.write ("Yes, " + fullName + "is my name");
 
 
 //output : Yes, Nabila Binte Tariq Mumu is my name
+
+
+
+
+
+//Using the concat method
+
+
+var firstName,lastName,fullName;
+
+firstName= "Sonia Tasmin";
+
+lastName= " Sneha ";
+
+fullName= firstName.concat(lastName); 
+
+document.write ("Yes, " + fullName + "is my name <br/>");
+document.write (firstName.length);
+
+//output : Yes, Sonia Tasmin Sneha is my name
+           12
