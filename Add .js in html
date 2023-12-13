@@ -1,3 +1,4 @@
+/*
 To add a JavaScript file to an HTML document, first use the `<script>` tag. Here's a basic example of how you can include a JavaScript file in your HTML:
 
 1.Create a JavaScript file
@@ -16,6 +17,8 @@ To add a JavaScript file to an HTML document, first use the `<script>` tag. Here
 
 
    Open your HTML file and use the `<script>` tag to include the JavaScript file. Place the `<script>` tag in the `<head>` or `<body>` section of HTML file.
+
+*/
 
 <!DOCTYPE html>
 <html lang="en">
