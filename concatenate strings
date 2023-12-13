@@ -1,0 +1,12 @@
+var firstName,lastName,fullName;
+
+firstName= "Nabila Binte Tariq";
+
+lastName= " Mumu ";
+
+fullName= firstName + lastName; 
+
+document.write ("Yes, " + fullName + "is my name");
+
+
+//output : Yes, Nabila Binte Tariq Mumu is my name
