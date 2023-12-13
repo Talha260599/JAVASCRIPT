@@ -1,0 +1,40 @@
+Question :
+// get first name from user
+// get last name from user
+// add without using library function
+// print full name
+// total length of full name
+// convert full name into uppercase
+// print the 2nd position from full name
+
+
+
+Solution :
+
+var firstName,lastName,fullName;
+
+firstName= prompt ("Enter first Name : ");
+
+lastName= prompt ("Enter last Name : ");
+
+//fullName= firstName +  lastName; 
+
+document.write ("My Name is " + firstName +" "+ lastName+"</br>");
+
+fullName= firstName +  lastName;  
+
+document.write (fullName.length+"</br>");
+document.write (fullName.toUpperCase()+"</br>");
+document.write (fullName.charAt(2));
+
+
+/*
+output :
+Enter first Name : Shahnaj
+Enter last Name  : Dilruba
+
+My Name is Shahnaj Dilruba
+14
+SHAHNAJDILRUBA
+a
+*/
