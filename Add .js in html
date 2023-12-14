@@ -34,4 +34,4 @@ To add a JavaScript file to an HTML document, first use the `<script>` tag. Here
 </html>
 
 
-Make sure to replace `"index.js"` with the correct path to JavaScript file.
+//Make sure to replace `"index.js"` with the correct path to JavaScript file.
