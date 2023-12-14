@@ -1,0 +1,37 @@
+var score;
+
+score=prompt("Enter Score : ");
+
+// Determine the letter grade using a switch statement
+switch (true) {
+    case score >= 80 && score <=100:
+        document.write("A+");
+        break;
+    case score >= 70 && score <=79:
+     document.write("A");
+        break;
+    case score >= 60 && score <=69:
+     document.write("A-");
+        break;
+    case score >= 50 && score <=59:
+     document.write("B");
+        break;
+    case score >= 40 && score <=49:
+     document.write("C");
+        break;
+    case score >= 33 && score <=39:
+     document.write("D");
+        break;
+    default:
+     document.write("F");
+}
+
+
+/*
+
+output :
+
+Enter Score : 74
+A
+
+*/
