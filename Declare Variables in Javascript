@@ -8,14 +8,24 @@
 */
 Example :
 
-var name,age;
+var myName,age;
 
 myName="Sneha"
-age=27;
+age=24;
 
 // Output values
-document.write(name);
+document.write(name+"<br/>");
 document.write(age);
+
+
+/*
+
+output:
+
+Sneha
+24
+
+*/
 
 
 
