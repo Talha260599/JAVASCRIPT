@@ -14,3 +14,14 @@ for(x=num1;x<=num2;x++)
 }
 
 document.write("Sum is :" +sum);
+
+/*
+
+OUTPUT :
+
+Enter 1st Number : 10
+Enter 2nd Number : 15
+
+Sum is : 75
+
+*/
