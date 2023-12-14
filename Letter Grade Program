@@ -2,7 +2,7 @@ var marks;
 
 marks=parseInt (prompt("Enter marks : " ));
 
-if(marks>=80)
+if(marks>=80 && marks <=100)
    
    console.log("A+");
 
@@ -22,13 +22,17 @@ else if (marks>=40 && marks <=49)
      
      console.log("C");
 
-else if (marks>=34 && marks <=39)
+else if (marks>=33 && marks <=39)
      
      console.log("D");
 
+else if (marks>=0 && marks <=32)
+
+     document.write("Keep working hard. You need to improve.");
+
 else
-  
-    document.write("Keep working hard. You need to improve.");
+   
+    document.write("Invalid marks");
 
 
 
