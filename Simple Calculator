@@ -1,0 +1,35 @@
+var num1,num2,sum,sub,multiplication, division,remainder ;
+
+num1=prompt("Enter first Number : " );
+num2=prompt("Enter second Number : " );
+
+num1=parseFloat(num1,10);
+num2=parseFloat(num2,10);
+
+sum=num1+num2;
+sub=num1-num2;
+multiplication=num1*num2;
+division=num1/num2;
+remainder=num1%num2;
+
+document.write(num1 + " + " + num2 + "=" +sum + "<br/>");
+document.write(num1 + " - " + num2 + "=" +sub + "<br/>");
+document.write(num1 + " * " + num2 + "=" +multiplication + "<br/>");
+document.write(num1 + " / " + num2 + "=" +division + "<br/>");
+document.write(num1 + " % " + num2 + "=" +remainder);
+
+
+/* 
+
+output :
+
+Enter first Number : 20
+Enter second Number : 10
+
+20 + 10=30
+20 - 10=10
+20 * 10=200
+20 / 10=2
+20 % 10=0
+
+*/
