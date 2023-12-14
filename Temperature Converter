@@ -11,6 +11,8 @@ document.write("Fahrenheit : "+far+"°F");
 
 output :
 
+Enter Celsius : 75
+
 Fahrenheit : 167°F
 
 */
