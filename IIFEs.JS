@@ -1,5 +1,6 @@
 /*
-IIFEs=Immediately Invokeable Function Expressions (Function expressions are often used in the form of IIFE, where the function is defined and executed immediately after its creation.)
+IIFEs=Immediately Invokeable Function Expressions 
+Function expressions are often used in the form of IIFE, where the function is defined and executed immediately after its creation.
 */
 
 //Create an IIFEs that print sum of 2 numbers
