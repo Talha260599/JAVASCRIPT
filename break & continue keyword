@@ -1,0 +1,52 @@
+/*
+
+1) break :
+The break statement is used to exit a loop prematurely. It is often used within loops (such as for or while) or switch statements.
+
+2) continue:
+The continue statement is used to skip the rest of the code inside a loop for the current iteration and proceed to the next iteration.
+
+*/
+
+
+var i;
+
+document.write("Even Numbers are : <br/>");
+
+for (i=1; i<=100;i++)
+{
+
+   if (i%2!=0)
+   {
+    continue;
+   }
+
+   if(i==30)
+   {
+    break;
+   }
+   
+   document.write(i+"<br/>");
+}
+
+
+/*
+OUTPUT :
+
+Even Numbers are :
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+
+*/
