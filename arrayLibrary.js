@@ -88,3 +88,25 @@ document.write("descending order : "+numbers+"<br/>");
 //In this example, return b - a; means that if the result is negative, b should come before a, resulting in descending order.
 
 
+
+/*
+OUTPUT :
+
+Main Elements : Bangladesh,Mango,Tiger,Saintmartin,Roast,Sky
+push library : Bangladesh,Mango,Tiger,Saintmartin,Roast,Sky,Tree,Bird
+pop library : Bangladesh,Mango,Tiger,Saintmartin,Roast,Sky,Tree
+shift library : Mango,Tiger,Saintmartin,Roast,Sky,Tree
+unshift library : Bangladesh,Mango,Tiger,Saintmartin,Roast,Sky,Tree
+splice library : Bangladesh,Mango,Tiger,Cox's Bazar,Keokradong,Kuakata,Saintmartin,Roast,Sky,Tree
+splice library : Bangladesh,Mango,Tiger,Cox's Bazar,Keokradong,Kuakata,Saintmartin,Tree
+slice library : Tiger,Cox's Bazar,Keokradong,Kuakata,Saintmartin,Tree
+sort library : Bangladesh,Cox's Bazar,Keokradong,Kuakata,Mango,Saintmartin,Tiger,Tree
+reverse library : Tree,Tiger,Saintmartin,Mango,Kuakata,Keokradong,Cox's Bazar,Bangladesh
+
+Numbers : 42,8,17,99,1
+ascending order : 1,8,17,42,99
+descending order : 99,42,17,8,1
+
+*/
+
+
