@@ -34,7 +34,7 @@ document.write("<br><br><br>");
 
 document.write("You total won : " +matchNum + "<br/>");
 
-document.write("You total lost : " +unmatchNum);
+document.write("You total lost : "+unmatchNum);
 
 
 
